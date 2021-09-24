@@ -1,6 +1,6 @@
 {
-  "homepage":"https://sajinsha.gtihub.io/meettupss",
-  "name": "meettupss",
+  "homepage": "http://sajinsha.github.io/react-meetups",
+  "name": "react-meetups",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,8 +15,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-     "predeploy": "npm reun build",
-     "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
